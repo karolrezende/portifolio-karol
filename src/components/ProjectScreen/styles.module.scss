@@ -1,0 +1,13 @@
+.container{
+    &_main{
+        display: flex;
+        flex-direction: column;
+        margin: 0 2em;
+        &__title{
+            display: flex;
+            justify-content:center;
+            margin-bottom: 1em;
+            font-size: 28px;
+        }
+    }
+}
